@@ -1,0 +1,113 @@
+/* Main Page Styling */
+.create-blog-page {
+  background-color: #121212;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  color: #f1f1f1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Blog Container */
+.create-blog-container {
+  max-width: 800px;
+  margin: auto;
+  background-color: #1e1e1e;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Title */
+.create-blog-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #2196f3;
+  text-align: center;
+}
+
+/* Error Message */
+.create-error-message {
+  color: #ef5350;
+  background-color: rgba(239, 83, 80, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Form Styling */
+.create-blog-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form Groups */
+.create-form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+.create-form-group label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #ccc;
+}
+
+.create-form-group input,
+.create-form-group textarea {
+  background-color: #2a2a2a;
+  color: #eee;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.create-form-group input:focus,
+.create-form-group textarea:focus {
+  border-color: #2196f3;
+  box-shadow: 0 0 5px #2196f3aa;
+}
+
+/* Button Container */
+.create-form-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* Submit & Cancel Buttons */
+.create-btn,
+.create-cancel-btn {
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  color: white;
+}
+
+.create-btn {
+  background: linear-gradient(135deg, #2196f3, #21cbf3);
+}
+
+.create-btn:hover {
+  background: linear-gradient(135deg, #1a76d2, #1fb6e0);
+  transform: scale(1.05);
+}
+
+.create-cancel-btn {
+  background: linear-gradient(135deg, #555, #888);
+}
+
+.create-cancel-btn:hover {
+  background: linear-gradient(135deg, #444, #777);
+  transform: scale(1.05);
+}
