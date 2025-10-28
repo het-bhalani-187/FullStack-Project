@@ -6,15 +6,12 @@ NyayGPT is a comprehensive legal assistance platform built with React, designed 
 ## Features
 
 ### Core Functionalities
-- 🤖 AI-Powered Legal Chatbot
-- 📝 Legal Blog Platform (Create, Read, Update, Delete)
-- 👨‍⚖️ Virtual Courtroom Experience
-- 🔒 Secure Authentication System
-- 📱 Responsive Design
+-  AI-Powered Legal Chatbot
+-  Legal Blog Platform (Create, Read, Update, Delete)
+-  Responsive Design
 
 ### User Authentication
 - Email and Phone verification
-- OTP-based authentication
 - Protected routes for authenticated users
 - User profile management
 
@@ -22,7 +19,6 @@ NyayGPT is a comprehensive legal assistance platform built with React, designed 
 - Create and publish legal articles
 - Edit and update existing posts
 - Detailed blog view
-- Rich text editing capabilities
 
 ## Tech Stack
 
@@ -32,28 +28,7 @@ NyayGPT is a comprehensive legal assistance platform built with React, designed 
 - CSS for styling
 - Modern JavaScript (ES6+)
 
-## Getting Started
 
-### Prerequisites
-- Node.js (version 14.x or higher)
-- npm or yarn package manager
-
-### Installation
-1. Clone the repository
-```bash
-git clone https://github.com/het-bhalani-187/FullStack-Project.git
-```
-
-2. Install dependencies
-```bash
-cd FullStack-Project
-npm install
-```
-
-3. Start the development server
-```bash
-npm start
-```
 
 
 
