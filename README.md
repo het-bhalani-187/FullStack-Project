@@ -32,22 +32,6 @@ NyayGPT is a comprehensive legal assistance platform built with React, designed 
 - CSS for styling
 - Modern JavaScript (ES6+)
 
-### Security
-- Protected routes implementation
-- Authentication context
-- Token-based authorization
-
-## Project Structure
-```
-src/
-├── components/       # Reusable UI components
-├── context/         # React Context providers
-├── pages/           # Main application pages
-├── services/        # API and service integrations
-├── styles/          # CSS styling files
-└── utils/          # Utility functions and helpers
-```
-
 ## Getting Started
 
 ### Prerequisites
@@ -71,12 +55,6 @@ npm install
 npm start
 ```
 
-The application will be available at `http://localhost:3000`
 
-## Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
----
